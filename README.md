@@ -1,5 +1,7 @@
 # go-expandstrict
 
+[![godoc](https://godocs.io/github.com/njkleiner/go-expandstrict?status.svg)](https://godocs.io/github.com/njkleiner/go-expandstrict)
+
 A replacement for [`os.Expand`](https://golang.org/pkg/os/#Expand) that returns an error if any of the variables to be expanded are undefined.
 
 ## Install
@@ -12,8 +14,8 @@ A replacement for [`os.Expand`](https://golang.org/pkg/os/#Expand) that returns 
 package example
 
 import (
-    "os"
     "fmt"
+    "os"
 
     "github.com/njkleiner/go-expandstrict"
 )
