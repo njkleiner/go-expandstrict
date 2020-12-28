@@ -8,6 +8,8 @@ import (
 )
 
 var (
+	// ErrUndefinedVariable is returned by Expand if any of the
+	// variables to be expanded are undefined.
 	ErrUndefinedVariable = errors.New("cannot expand undefined variable")
 )
 
